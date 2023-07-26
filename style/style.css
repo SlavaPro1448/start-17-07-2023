@@ -1,9 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: yellow;
+}
 h1{
     color: black;
     text-align: center;
 }
-body{
-    background-color: yellow;
+ul{
+    font-family: 'Borel', cursive;
 }
 ul li:first-child{
     color: blue;
@@ -14,3 +18,4 @@ ul li:last-child{
 ul li:nth-child(3){
     color: chartreuse;
 }
+
