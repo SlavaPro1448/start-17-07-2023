@@ -5,6 +5,7 @@ header{
 
 }
 div{
+    margin: 0;
     /* width: 1440px; */
     margin-top: 161px;
     height: 421px;
@@ -12,7 +13,10 @@ div{
     background: #FAC960;
 }
 h1{
+    /* width: 940px;
+    height: 237px; */
     padding: 102px 380px 265px 380px;
+    /* margin: 102px auto; */
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #8A6D2F;
@@ -21,7 +25,27 @@ h1{
     font-weight: 400;
     line-height: 54px;
     /* width: 679px; */
-    form{
-    padding: 158.2px 310px 24.8px 70px;
+    
 }
+.btn-input,
+.text-input{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 54px;
+    padding: 54px;
+}
+.text-input{
+    /* margin: 158.2px 310px 24.8px 70px; */
+    border-radius: 2px 0px 0px 2px;
+    background: #FFF;
+    width: 560px;
+    padding: 1px;
+}
+.btn-input{
+    border-radius: 0px 2px 2px 0px;
+    background: #A8863D;
+    padding: 0 34px;
+    width: 240px;
+    padding: 1px;
+    color: #FFF;
 }
