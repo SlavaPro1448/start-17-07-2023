@@ -1,5 +1,5 @@
 body{
-    margin: auto;
+    margin:0px auto;
 }
 header{
 height: 161px;
@@ -17,6 +17,7 @@ height: 161px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 }
 .nav{
     display: inline-block;
@@ -84,7 +85,7 @@ form{
     background: #FFF;
     width: 400px;
     padding: 0 36px;
-    /* margin-right: 6px; */
+    margin-right: -9px;
     /* padding: 1px; */
 }
 .btn-input{
@@ -95,6 +96,10 @@ form{
     /* width: 240px; */
     /* padding: 1px; */
     color: #FFF;
+}
+.btn-input:hover{
+    background: #FFF;
+    color: black;
 }
 
 .two{
@@ -128,8 +133,10 @@ form{
     /* margin-left: 580px; */
 }
 .three{
+    /* margin: 0px auto; */
     height: 625px;
     background: #F2F2F2;
+    /* text-align: center; */
 }
 img{
     display: inline-block;
@@ -162,6 +169,7 @@ button{
 }
 .social{
     text-align: center;
+    margin-top: 30px;
 }
 a img{
     display: inline-block;
